@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  background-color: #101010;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.navbar img {
+  max-width: 150px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.navbar .MuiSvgIcon-root {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.navbar__calendar {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 3 / span 3;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar__search {
+  flex: 0.7;
+}
+.navbar__search input {
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+.numberOfGuests {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+  margin-right: auto;
+  margin-left: auto;
+}
+.numberOfGuests input {
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  width: 4rem;
+  color: #fba6a6;
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+}
+.numberOfGuests > h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+.navbar__buttons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar__buttons button {
+  border: none;
+  background-color: white;
+  flex-grow: 1;
+  padding: 1rem;
+  cursor: pointer;
+}
+.navbar__searchBtn {
+  color: #fba6a6;
+}
+@media only screen and (max-width: 420px) {
+  .navbar {
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .navbar {
+    width: 107vw;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .navbar {
+    width: 107vw;
+  }
+}

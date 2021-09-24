@@ -1,0 +1,68 @@
+.hotelDetails {
+  margin: 2rem 10rem 10rem 10rem;
+  overflow-x: hidden;
+}
+.hotelDetails__images {
+  margin: 1rem 0;
+}
+.hotelDetails__images > img {
+  max-width: 30rem;
+  min-width: 30rem;
+  min-height: 20rem;
+  max-height: 20rem;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+.hotelDetails__price {
+  display: flex;
+  margin-top: 2rem;
+}
+.hotelDetails__price > div {
+  border: 1px solid lightgray;
+  padding: 1rem;
+}
+.hotelDetailsPrice__price > p {
+  color: gray;
+}
+.green-text {
+  color: #00a19c;
+  font-weight: 500;
+}
+.hotelDetailsPrice__price > button {
+  border: none;
+  padding: 1rem;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 660px) {
+  .hotelDetails {
+    margin: 2rem 2rem 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .hotelDetails__images > img {
+    max-width: 20rem;
+    min-width: 20rem;
+    min-height: 10rem;
+    max-height: 10rem;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .hotelDetails__price {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 285px) {
+  .hotelDetails__images > img {
+    max-width: 15rem;
+    min-width: 15rem;
+    min-height: 8rem;
+    max-height: 8rem;
+  }
+  .hotelDetails {
+    margin: 2rem 0rem 1rem 2rem;
+  }
+}

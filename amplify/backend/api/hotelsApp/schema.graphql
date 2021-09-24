@@ -1,0 +1,9 @@
+type Hotel @model @auth(rules: [{ allow: public }]) {
+  id: ID!
+  name: String
+  image: String
+  price: Int
+  rating: Float
+  address: String
+  location: String
+}

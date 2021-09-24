@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hotelsapp-staging-123529-authRole",
+      "UnauthRoleArn": "arn:aws:iam::943034418296:role/amplify-hotelsapp-staging-123529-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::943034418296:role/amplify-hotelsapp-staging-123529-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-hotelsapp-staging-123529-deployment",
+      "UnauthRoleName": "amplify-hotelsapp-staging-123529-unauthRole",
+      "StackName": "amplify-hotelsapp-staging-123529",
+      "StackId": "arn:aws:cloudformation:us-east-2:943034418296:stack/amplify-hotelsapp-staging-123529/3dd602f0-1a0f-11ec-bd23-0ad771467442",
+      "AmplifyAppId": "d34d88pvs4eavp"
+    },
+    "categories": {
+      "auth": {
+        "hotelsapp95e1777f": {}
+      }
+    }
+  }
+}
